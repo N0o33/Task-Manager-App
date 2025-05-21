@@ -1,0 +1,99 @@
+.dashboard {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  input {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 12px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+    input[type='checkbox'] {
+      margin-right: 10px;
+    }
+
+    span {
+      flex-grow: 1;
+      font-size: 16px;
+
+      &.completed {
+        text-decoration: line-through;
+        color: #888;
+      }
+    }
+
+    button {
+      background: none;
+      border: none;
+      font-size: 18px;
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+
+.logout-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #dc3545;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #b02a37;
+  }
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
