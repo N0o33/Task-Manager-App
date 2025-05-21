@@ -1,8 +1,5 @@
-# your local version
-node_modules/
-dist/
-.env
-# the version from GitHub
-node_modules/
-build/
-.DS_Store
+node_modules/ 
+dist/ 
+.env 
+backend/node_modules/ 
+frontend/node_modules/ 
