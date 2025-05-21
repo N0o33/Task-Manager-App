@@ -1,17 +1,8 @@
-# Node modules
+# your local version
 node_modules/
-
-# Environment variables
-*.env
-
-# Log files
-*.log
-
-# Build output
 dist/
+.env
+# the version from GitHub
+node_modules/
 build/
-
-# OS junk
 .DS_Store
-Thumbs.db
-
